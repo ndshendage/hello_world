@@ -1,0 +1,2 @@
+/home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20160516-7770-8o6szh.rb extconf.rb
+Cannot allocate memory - /home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20160516-7770-8o6szh.rb extconf.rb 2>&1

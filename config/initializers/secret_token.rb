@@ -1,0 +1,1 @@
+PostAjax::Application.config.secret_key_base = '<token>'

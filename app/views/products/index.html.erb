@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="well text-center">
+    <h1>Listing products</h1>
+    <%= link_to 'Show Product List', "#", class: 'btn btn-success list' %>
+  </div>
+<div class="product-list">
+<%= render 'shared/messages'%>
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th class="text-center">Name</th>
+      <th class="text-center">Price</th>
+      <th class="text-center">Actions</th>
+      
+    </tr>
+  </thead>
+
+  <tbody class="product-index">
+      <%= render "index" %>
+    </tbody>
+  </table>
+
+<br>
+</div>
+</div>
+<div class="well well-sm text-center">
+<%= link_to 'Add New Product', new_product_path, remote: true, class: 'btn btn-success' %>
+</div>
+
+<div id="product-modal" class="modal fade"></div>
