@@ -23,8 +23,6 @@ class CustomersController < ApplicationController
     @customer = Customer.new(customer_params)
     @customer.save
     @customers = Customer.all
-    #respond_with(@customers) 
-    #respond_with(@customer)
   end
 
   def update
@@ -38,6 +36,7 @@ class CustomersController < ApplicationController
   def destroy
     @customer.destroy
     @customers = Customer.all
+    #respond_with(@customers)
     #respond_with(@customer)
   end
 
