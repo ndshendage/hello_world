@@ -5,5 +5,7 @@
 
 
 $(document).on "page:change", ->
-  $(".list").click ->
+  $(".list1").click ->
     $(".product-list").toggle()
+    $("#data-operation").prop('value', 'Save')
+    alert("afer")

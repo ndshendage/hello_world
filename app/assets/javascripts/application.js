@@ -14,3 +14,29 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+$(document).on ("click", ".list", function(){
+ var d = this
+ var p = $(this).val();
+ var name = $(this).attr("attribute");
+
+ if (name == "show"){
+ 	document.getElementById('data-operation').innerHTML = "Hide Product List"
+  $('#data-operation').attr('attribute','close');
+ }
+ else{
+ 	document.getElementById('data-operation').innerHTML = "Show Product List"
+  $("#data-operation").attr("attribute","show");
+ }
+
+
+	 		
+  //alert("d_his = "+d+" $val = "+p+" name "+name);
+ // //document.getElementById("data-operation").value="Close list";
+ // document.getElementById('data-operation').innerHTML = "Close"
+ // $("#data-operation").attr("attribute","close");
+ // alert($('#data-operation').attr('attribute'));
+ $(".product-list").toggle();
+});

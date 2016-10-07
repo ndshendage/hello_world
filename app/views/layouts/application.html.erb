@@ -23,8 +23,8 @@
 
       <li ><a href="/pages/home"> Home</a></li>
       <!-- <li ><a href="/"> <%= t("common.home")%></a></li> -->
-      <li><a href="/pages/about_us"><%=t("common.about")%></a></li>
-      <li><a href="/pages/faq"> <%=t("common.faq")%></a></li>
+      <li><a href="/customers"> Customers</a></li>
+      <li><a href="/orders">Orders</a></li>
       <li><a href="/pages/contact_us"><%= t("common.contact")%></a></li>
       <li><a href="/products"><%=t("common.product")%></a></li>
       <% if user_signed_in?%>
@@ -42,7 +42,7 @@
       </li>
   </ul>
   </nav>
-<%= render 'shared/messages'%>
+<%#= render 'shared/messages'%>
 <%= yield %>
 <div id="layout-modal" class="modal fade"></div>
 </div>

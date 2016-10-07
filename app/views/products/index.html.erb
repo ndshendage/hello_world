@@ -1,7 +1,7 @@
 <div class="container">
   <div class="well text-center">
     <h1>Listing products</h1>
-    <%= link_to 'Show Product List', "#", class: 'btn btn-success list' %>
+    <%= link_to 'Show Product List', "#", class: 'btn btn-success list', id: "data-operation", attribute: "show" %>
   </div>
 <div class="product-list">
 <%= render 'shared/messages'%>
@@ -10,7 +10,8 @@
     <tr>
       <th class="text-center">Name</th>
       <th class="text-center">Price</th>
-      <th class="text-center">Actions</th>
+      <th class="text-center"> Edit</th>
+      <th class="text-center"> Delete</th>
       
     </tr>
   </thead>
@@ -24,7 +25,7 @@
 </div>
 </div>
 <div class="well well-sm text-center">
-<%= link_to 'Add New Product', new_product_path, remote: true, class: 'btn btn-success' %>
+<%= link_to 'Add New Product', new_product_path, remote: true, class: 'btn btn-success btn-block' %>
 </div>
 
 <div id="product-modal" class="modal fade"></div>

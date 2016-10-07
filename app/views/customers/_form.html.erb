@@ -1,0 +1,41 @@
+
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <%= form_for @customer, remote: true, html: { style: "display:inline;" } do |f| %>
+    <div class="modal-body">
+      <% if @customer.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@customer.errors.count, "error") %> prohibited this customer from being saved:</h2>
+
+          <ul>
+          <% @customer.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.label :name, class:"control-label" %><br>
+        <%= f.text_field :name, class: "form-control" %>
+      </div>
+      <div class="form-group">
+        <%= f.label :address, class:"control-label"%><br>
+        <%= f.text_area :address, class: "form-control" %>
+      </div>
+      <div class="form-group">
+        <%= f.label :gender, class:"control-label" %><br>
+        <%= f.select :gender, [ ['select gender', ''],['Male','male'], ['Female', 'female'] ], class: "form-control"%>
+      </div>
+      <div class="field">
+        <%= f.label :age, class:"control-label" %><br>
+        <%= f.number_field :age, class: "form-control" %>
+      </div>
+      <div class="modal-footer">
+        <%= f.submit class: "btn btn-primary text-center" %>
+        <%= link_to "Cancel", "#", class: "btn btn-default text-center", data: {dismiss: "modal"} %>
+    </div >    
+    <% end %>
+  </div>
+</div>

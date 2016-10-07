@@ -1,0 +1,10 @@
+alert("I am in the status.js.erb");
+$("ul.errors").html("")
+<% if @customer.errors.any? %>
+  <% @customer.errors.full_messages.each do |message| %>
+    $("ul.errors").append($("<li />").html("<%= message.html_safe %>"))
+  <% end %>
+<% else %>
+  $(".customer-list").html("<%= escape_javascript(render 'customer_table') %>")
+  $("#product-modal").modal("hide")
+<% end %>
