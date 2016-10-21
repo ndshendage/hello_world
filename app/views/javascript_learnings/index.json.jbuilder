@@ -1,0 +1,1 @@
+json.array! @javascript_learnings, partial: 'javascript_learnings/javascript_learning', as: :javascript_learning

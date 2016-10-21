@@ -1,0 +1,13 @@
+//alert("called sorted");
+$('.button-strip').html("<%= j render 'change_button'%>");
+$('#function-data').html("<%= j render'function_list'%>");
+var current_order = "<%= @order%>"
+if(current_order == "desc" ){
+    //document.getElementById('order').innerHTML = "Order Ascending"
+    document.getElementById('order').innerHTML = "Order Ascending"
+    $("#order").attr("order","asc");
+    }
+    else{
+      document.getElementById('order').innerHTML = "Order Descending"
+    $("#order").attr("order","desc");
+  }

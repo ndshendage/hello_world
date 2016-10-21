@@ -1,0 +1,5 @@
+<div class="pull-right ">
+  <%= link_to 'Learn Javascript Here', javascript_demos_javascript_learnings_path ,class: 'btn btn-success btn-under-well'%>
+  <%= link_to 'Go To Dom Manipulation', dom_manipulation_javascript_learnings_path ,class: 'btn btn-success btn-under-well'%>
+  <%= link_to 'Oder Desc', sorted_javascript_learnings_path(id: "id", order: @order_params) ,class: 'btn btn-success btn-under-well', remote: true, id: "order", order: @order_params%>
+</div>

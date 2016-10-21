@@ -18,7 +18,7 @@
 #root-nav{
 	height: 30px;
 	margin-top: 20px;
-  padding-left: 30px;
+  width: 100%;
   a{
     font-size: 20px;
     color: green;
@@ -34,4 +34,12 @@
   margin: 10px auto;
   background-color: green;
 
+}
+.no-top-margin{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.navbar-nav{
+  width: 100%;
+  background-color: grey;
 }

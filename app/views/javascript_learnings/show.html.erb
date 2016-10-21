@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Function name:</strong>
+  <%= @javascript_learning.function_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @javascript_learning.description %>
+</p>
+
+<%= link_to 'Edit', edit_javascript_learning_path(@javascript_learning) %> |
+<%= link_to 'Back', javascript_learnings_path %>

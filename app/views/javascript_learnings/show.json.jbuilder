@@ -1,0 +1,1 @@
+json.partial! "javascript_learnings/javascript_learning", javascript_learning: @javascript_learning

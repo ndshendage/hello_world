@@ -1,0 +1,12 @@
+<% @javascript_learnings.each do |javascript_learning| %>
+      <tr>
+      <td><%= javascript_learning.id %></td>
+        <td><%= javascript_learning.function_name %></td>
+        <td><%= javascript_learning.maximum %></td>
+        <td><%= javascript_learning.minimum %></td>
+        <td><%= javascript_learning.description %></td>
+        <td class="text-center"><%= link_to 'Show', javascript_learning, class: 'btn btn-info' %></td>
+        <td class="text-center"><%= link_to 'Edit', edit_javascript_learning_path(javascript_learning), class: 'btn btn-primary' %></td>
+        <td class="text-center"><%= link_to 'Destroy', javascript_learning, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
+      </tr>
+    <% end %>

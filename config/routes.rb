@@ -1,5 +1,20 @@
 Rails.application.routes.draw do
   
+  resources :records
+  resources :javascript_learnings do
+    collection do
+      get :javascript_demos
+      get :dom_manipulation
+      get :sorted
+      get :navigation_dropdown
+    end
+  end
+  resources :posts
+
+  resources :orders
+
+  resources :customers
+
   get "pages/contact_us"
   get "pages/home"
   get "pages/contact"

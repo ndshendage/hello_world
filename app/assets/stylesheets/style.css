@@ -1,0 +1,174 @@
+*, *:before,
+*:after{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+html, body{
+	background: #f7f7f7 url(../img/bg.png) left top no-repeat;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: all ease-in 0.4s;
+	-moz-transform: all ease-in 0.4s;
+	transform: all ease-in 0.4s;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+}
+
+input::-webkit-input-placeholder {
+  color: #a4a4a4;
+}
+
+::-moz-placeholder {
+  color: #a4a4a4;
+}
+
+:-ms-input-placeholder {
+  color: #a4a4a4;
+}
+
+::-webkit-input-placeholder {
+  color: #a4a4a4;
+}
+
+::placeholder {
+  color: #a4a4a4;
+}
+.data{
+ width: 95%;
+ margin: 20px auto;
+}
+.dynamic-data{
+ width: 98%;
+ margin: 20px auto;
+}
+.left{
+	background-color: grey;
+	float: left !important;
+}
+
+.btn-under-well{
+margin-top: -21px;
+margin-bottom: 1px;
+}
+
+.javascript-data{
+	width: 98%;
+	margin: 60px auto 20px auto;
+	min-height: 500px;
+}
+
+.js-vr1{
+	width: 23%;
+	background-color: green;
+	height: 150px;
+	float: left;
+	margin-right: 2.6%;
+}
+.js-vr2{
+	width: 23%;
+	background-color: slateblue;
+	height: 150px;
+	float: left;
+	margin-right: 2.6%;
+}
+.js-vr3{
+	width: 23%;
+	background-color: grey;
+	height: 150px;
+	float: left;
+	margin-right: 2.6%;
+}
+.js-vr4{
+	width: 23%;
+	background-color: MediumSpringGreen ;
+	height: 150px;
+	float: left;
+}
+#one{
+    border:3px solid #00F;
+    width:50%;
+}
+.operations{
+	width: 100%;
+	background-color: grey;
+	margin-top: 30px;
+	float:left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.changed-class{
+	background-color: yellow;
+}
+
+.table th{
+	background-color: grey;
+}
+#function-table th:nth-child(odd){
+	background-color: green;
+}
+
+.but{
+	height: 40px;
+	margin-right: 20px;
+}
+
+.form{
+	width: 70%;
+	margin: auto;
+	background-color: grey;
+}
+
+.buttons{
+	padding-right: 20px;
+	height: 60px;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.panel-collection{
+	float: left;
+	margin: 20px auto 10px auto;
+  width: 100%;
+  background-color: grey;
+}
+.oper{
+	margin-bottom: 10px;
+	background-color: chartreuse;
+}
+.panel{
+  width: 20%;
+  margin-right: 30px;
+  min-height: 100px;
+  float: left;
+  background-color: chartreuse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.panel-name{
+	background-color: skyblue;
+	height: 30px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}
+.tab{
+	min-height: 50px;
+	background-color: grey;
+	margin-top: 0px;
+	display: none;
+}
+.nav{
+	margin-bottom: 5px;
+}
+.tab-collection .tab.active{
+	display: block;
+}
+.nav-tabs li.active{
+	background-color: red;
+}
+
+.nav-tabs li #tab3{
+	background-color: black;
+}
