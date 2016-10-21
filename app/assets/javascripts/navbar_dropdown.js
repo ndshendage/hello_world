@@ -18,11 +18,10 @@ $(document).ready(function(){
 
  $(document).on("click",".tabs", function(){
   var id_clicked = $(this).attr('data-panel');
-  $('.nav-tabs li').removeClass("active");
+  $('.nav-tabs li.active').removeClass("active");
   var id_clicked_id = $(this).attr('id');
   $('#'+id_clicked_id).addClass('active');
-  //alert("Clicked = "+id_clicked);
-  $('.tab-collection .tab').removeClass("active");
+  $('.tab-collection .tab.active').removeClass("active");
   $('#'+id_clicked).addClass('active');
   return false;
  });
