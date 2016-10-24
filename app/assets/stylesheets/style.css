@@ -168,7 +168,49 @@ margin-bottom: 1px;
 .nav-tabs li.active{
 	background-color: red;
 }
+.nav-tabs li.active a{
+	color: blue !important;
+}
+.nav-tabs li a {
+	color: black;
+}
 
-.nav-tabs li #tab3{
-	background-color: black;
+.dropdown ul li.active a{
+	background-color: red !important;
+	color: blue;
+}
+
+.well a{
+	text-decoration: none !important;
+}
+
+.data{
+	width: 90%;
+	margin-top: 20px auto 10px auto;
+}
+
+.image-div{
+	height: 200px;
+  width: 200px;
+  margin: 50px;
+  float: center;
+}
+.img-div-o{
+ width: 300px;
+ height: 300px;
+ margin: 30px auto 0px auto;
+ background-color: grey;
+ float: center;
+}
+.image-bchange-btn.active{
+	background-color: green;
+	font-size: 18px;
+}
+.image-bchange-btn.active a{
+	color: red;
+}
+.image-bchange-btn{
+  margin-bottom: 30px;
+  width: 90px;
+  margin-right: 20px;
 }

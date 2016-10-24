@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get :dom_manipulation
       get :sorted
       get :navigation_dropdown
+      get :w3schools
     end
   end
   resources :posts

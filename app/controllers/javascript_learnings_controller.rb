@@ -93,6 +93,10 @@ class JavascriptLearningsController < ApplicationController
   def navigation_dropdown
   end 
 
+  def w3schools
+    @default_image = "kid.jpg"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_javascript_learning

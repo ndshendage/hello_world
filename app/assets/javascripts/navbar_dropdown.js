@@ -18,7 +18,7 @@ $(document).ready(function(){
 
  $(document).on("click",".tabs", function(){
   var id_clicked = $(this).attr('data-panel');
-  $('.nav-tabs li.active').removeClass("active");
+  $('.nav.nav-tabs li.active').removeClass("active");
   var id_clicked_id = $(this).attr('id');
   $('#'+id_clicked_id).addClass('active');
   $('.tab-collection .tab.active').removeClass("active");
@@ -26,5 +26,30 @@ $(document).ready(function(){
   return false;
  });
 
+ $(document).on ("click", ".dropdown ul li" , function(){
+   alert("hi clicked ");
+   $('.dropdown ul li.active').removeClass('active');
+   var current_on = $(this).attr('id');
+   $('#'+current_on).addClass('active');
+   return false;
+ });
+
+
+$(document).on ("mouseover", ".dropdown .btn-primary", function(){
+ //alert("working"); 
+ //$(".dropdown-menu").show();
+});
+
+
+
+// changing images
+ 
+$(document).on ("click", ".image-bchange-btn", function(){
+ var newImage = $(this).attr('new-image');
+ var id = $(this).attr('id');
+ document.getElementById('image-id').src = "/assets"+newImage;
+ $('.image-bchange-btn.active').removeClass('active');
+ $('#'+id).addClass('active');
+});
 
 });
