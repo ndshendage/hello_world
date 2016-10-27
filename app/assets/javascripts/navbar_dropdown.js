@@ -3,7 +3,9 @@ $(document).ready(function(){
  $(document).on("click", ".panel-button", function(){
   //alert("You have clicked");
   var id = $(this).attr('data-panel');
-  alert(id);
+  var vale = $(this).className;
+  var cs = $(this).attr('class');
+  alert("id = "+id+"value = "+vale+"classname ="+cs);
   $('#'+id).toggle(3000);
   // $('#panel-1').hide(3000).show(3000);
   // $('#panel-2 .panel-name').html("Bharat").css("color","red");
