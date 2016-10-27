@@ -3,10 +3,14 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'rails', '4.0.1'
+gem 'rails', '4.2.6'
 gem 'devise'
+gem 'react-rails', '~> 1.0'
+gem 'aasm'
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.3'
 # Use sqlite3 as the database for Active Record
-gem 'mysql2', '=0.3.17'
+gem 'mysql2', '~> 0.3.18'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,6 +26,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+gem 'sprockets-rails'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -33,11 +38,19 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+ gem 'graphviz'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
+group :development do
+  gem 'rails-erd'
+end
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
