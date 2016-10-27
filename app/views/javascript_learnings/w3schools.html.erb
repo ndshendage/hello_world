@@ -1,13 +1,26 @@
+<br><br>
+<br><a href="https://www.youtube.com/watch?v=coIsvOMYEi0&list=PLXwpTMsN_xscBIw6IVfCTobKr3xlDjV4I&index=2" style="text-decoration: none" target="_blank"><h3 class="well well-lg text-center" style="margin-top: 30px; color: green;">Rotating images</h3></a>
+<button class="rotate"> Rotate Image</button>
+<br>
+<br>
+<div class="img-div-o">
+   <%= image_tag "kid.jpg", class: 'image-div-1', id: "rotate-image", direction: "cw" %>
+   </div>
+   <div class="img-div-o">
+   <%= image_tag "cat.jpg", class: 'image-div-2', id: "rotate-image11", direction: "acw" %>
+   </div>
+
+
 <br><a href="http://www.w3schools.com/js/default.asp" style="text-decoration: none" target="_blank"><h3 class="well well-lg text-center" style="margin-top: 30px; color: green;">JavaScript Learning from w3schools</h3></a>
 
 <div class="data">
 <h3> Which image you would like to show in the following </h3>
-  <button class="image-bchange-btn panel-button active" new-image="kid.jpg" id="kid">Kid</button>
+  <button class="image-bchange-btn active" new-image="kid.jpg" id="kid">Kid</button>
   <!-- <img src="/assets/images/cat.jpg" style="width:200px; height: 200px;" id="my-image" alt="Missing Image">  -->
-  <button class="image-bchange-btn panel-button" new-image= "cat.jpg" id="cat">Cat</button>
-  <button class="image-bchange-btn panel-button " new-image="cow.jpg" id="cow">Cow</button>
-  <button class="image-bchange-btn panel-button " new-image="horse.jpg" id="horse">Horse</button>
-  <button class="image-bchange-btn panel-button " new-image="ox.jpg" id="ox">Ox</button>
+  <button class="image-bchange-btn" new-image= "cat.jpg" id="cat">Cat</button>
+  <button class="image-bchange-btn " new-image="cow.jpg" id="cow">Cow</button>
+  <button class="image-bchange-btn " new-image="horse.jpg" id="horse">Horse</button>
+  <button class="image-bchange-btn " new-image="ox.jpg" id="ox">Ox</button>
   <br>
   <div >
   <div class="well well-sm">
@@ -16,6 +29,15 @@
   <div class="img-div-o">
    <%= image_tag "kid.jpg", class: 'image-div', id: "image-id" %>
    </div>
+  </div>
+
+  <br>
+  <div class="well well-sm">
+  	<h3 class="text-center"> Database image Manipulation</h3>
+  </div>
+  <br>
+  <div class="pull-right">
+  <%= link_to "Add New Animal", new_animal_path, class: 'btn btn-success'%>
   </div>
   
 </div>

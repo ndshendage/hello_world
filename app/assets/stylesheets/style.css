@@ -1,38 +1,33 @@
-*, *:before,
-*:after{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+#root-nav{
+	height: 30px;
+	margin-top: 20px;
+  width: 100%;
+    
 }
 
-html, body{
-	background: #f7f7f7 url(../img/bg.png) left top no-repeat;
-	width: 100%;
-	height: 100%;
-	-webkit-transform: all ease-in 0.4s;
-	-moz-transform: all ease-in 0.4s;
-	transform: all ease-in 0.4s;
-	font-family: 'Open Sans', sans-serif;
-	color: #222;
+#root-nav a{
+  font-size: 20px;
+  color: mediumblue;
 }
-
-input::-webkit-input-placeholder {
-  color: #a4a4a4;
+#root-nav li{
+  padding-left: 28px;
 }
+.message{
+  height:30px;
+  width: 80%;
+  margin: 10px auto;
+  background-color: green;
 
-::-moz-placeholder {
-  color: #a4a4a4;
 }
-
-:-ms-input-placeholder {
-  color: #a4a4a4;
+.no-top-margin{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
-::-webkit-input-placeholder {
-  color: #a4a4a4;
-}
-
-::placeholder {
-  color: #a4a4a4;
+.navbar-nav{
+  width: 100%;
+  background-color: wheat;
+  margin-bottom: 15px;
+  min-height: 40px;
 }
 .data{
  width: 95%;
@@ -40,7 +35,7 @@ input::-webkit-input-placeholder {
 }
 .dynamic-data{
  width: 98%;
- margin: 20px auto;
+ margin: 62px auto 20px auto;
 }
 .left{
 	background-color: grey;
@@ -183,6 +178,9 @@ margin-bottom: 1px;
 .well a{
 	text-decoration: none !important;
 }
+.well{
+	padding: 0px;
+}
 
 .data{
 	width: 90%;
@@ -213,4 +211,50 @@ margin-bottom: 1px;
   margin-bottom: 30px;
   width: 90px;
   margin-right: 20px;
+}
+.button-inline-left{
+	margin: auto;
+	background-color: grey;
+	text-align: center;
+}
+/*.btn-grp{
+	margin-right: 20px;
+	height: 20px;
+}*/
+
+
+.transition{
+	text-align: center;
+}
+
+.tras-btn{
+  min-width: 100px;
+  margin-left: 20px;
+  float: left;
+  height: 30px;
+  padding: auto;
+  background-color: grey;
+}
+
+.radio-btns .label{
+	min-height: 20px;
+	float: left;
+	width:100%;
+	
+    color: green;
+    font-size:18px;
+}
+
+.place-rbtn{
+	float: left;
+	width: 100%;
+}
+
+.place-rbtn input[type="radio"]{
+	float: left;
+	margin-right: 3px;
+}
+.place-rbtn label{
+	float: left;
+	margin-right: 5px;
 }

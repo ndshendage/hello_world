@@ -24,8 +24,7 @@
       <li ><a href="/pages/home" class="homy"> Home</a></li>
       <!-- <li ><a href="/"> <%= t("common.home")%></a></li> -->
       <li><a href="/customers"> Customers</a></li>
-      <li><a href="/records">Learn React Js</a></li>
-      <li><a href="/javascript_learnings">JavaScpipt Learnings</a></li>
+     <li><a href="/javascript_learnings">JavaScpipt Learnings</a></li>
       <li><a href="/products"><%=t("common.product")%></a></li>
       <% if user_signed_in?%>
         <li> <%= link_to t("common.logout"), destroy_user_session_path, method: :delete%>

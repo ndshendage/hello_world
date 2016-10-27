@@ -15,31 +15,3 @@
  */
 
 
-#root-nav{
-	height: 30px;
-	margin-top: 20px;
-  width: 100%;
-  a{
-    font-size: 20px;
-    color: green;
-    }
-  li{
-  	background-color: grey;
-  	padding-left: 28px;
-  }  
-}
-.message{
-  height:30px;
-  width: 80%;
-  margin: 10px auto;
-  background-color: green;
-
-}
-.no-top-margin{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.navbar-nav{
-  width: 100%;
-  background-color: grey;
-}
