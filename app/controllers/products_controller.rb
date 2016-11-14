@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:delete, :show, :edit, :update, :destroy]
   #before_action :authenticate_user!
-  http_basic_authenticate_with email: "navnath14oct@gmail.com", password: "12345678"
+  #http_basic_authenticate_with email: "navnath14oct@gmail.com", password: "12345678"
   # GET /products
   # GET /products.json
   def index
