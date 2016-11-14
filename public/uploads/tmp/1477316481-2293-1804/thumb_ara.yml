@@ -1,0 +1,1265 @@
+ara:
+  common:
+    back: "للخلف"
+    mark_open: "الحاله مفتوحه"
+    mark_complete: "الحاله مكتمله"
+    mark_final: "التفاصيل"
+    mark_inprogress: "Mark as InProgress"
+    mark_reviewed: "Mark as Reviewed"
+    delete: "حذف"
+    details: "تطبيقات"
+    actions: "تطبيقات"
+    edit: "تحرير"
+    cancel: "الغاء"
+    audit_center: "قائمه المهمات"
+    action_confirmation: "هل انت متاكد"
+  breadcrumb:
+    home: "الصفحه الرئيسيه"
+    new: "جديد"
+    details: "التفاصيل"
+    system_managements: 
+      home: "اداره النظام"
+      master_data: "اعداد البيانات الرئيسيه"
+      audit_center_priorities: "اعداد اولويات المهام"
+      audit_groups: "مجموعات المراجعه"
+      audit_ratings: "تقييم المراجعه"
+      audit_frequencies: "تكرار مهمه المراجعه"
+      control_desgin_effects: "تاثير الدور الرقابي"
+      control_operating_effects: "Control Operating Effectiveness"
+      control_categories: "تصنيف الدور الرقابي"
+      risk_categories: "تصنيف المخاطر"
+      risk_factors: "تصنيف المخاطر"
+      risk_impacts: "تاثير المخاطر"
+      risk_probabilities: "تاثير المخاطر"
+      risk_weights: "وزن المخاطر"
+      risk_types: "Risk Types"
+      control_types: "Control Type" 
+      audit_program_statuses: "حاله برنامج المراجعه"
+      audit_issue_statuses: "حاله ملاحظات المراجعه"
+      audit_issue_natures: "طبيعه ملاحظات المراجعه" 
+      audit_issue_risk_ratings: "طبيعه ملاحظات المراجعه"
+      audit_staffs: "موظفين المراجعه"
+      client_staffs: "موظفين العملاء"
+      locations: "المكان"
+      security_settings: "اعدادات الامان" 
+      dual_function_settings: "اعدادات الوظيفه المزدوجه" 
+      authentication_settings: "إعدادات المصادقة" 
+      email_notifications: "إخطارات البريد الإلكتروني"
+      email_notification_events: "إخطارات البريد الإلكتروني"
+      rights_managements: "اداره الصلاحيات" 
+      roles: "الصلاحيه"
+      user_role_types: "نوع صلاحيه المستخدم"
+    planning:
+      home: "التخطيط و الجدوله"
+      audit_entities: "كيانات المراجعه"
+      audit_centers: "مراكز المراجعه"
+      show_staff: "اظهار الموظفين"
+      update_staff: "تحديث الموظف"
+      audit_center_prioritization_worksheet: "اولويات مهام المراجعه"
+      risk_factors: "عوامل المخاطر"
+      annual_audit_schedule: "جدوله المهام السنويه"
+      annual_audit_line_items: "وحدات المراجعة السنوية"
+      audit_processes: "تفاصيل مهام العمل"
+      audit_risks: "مخاطر المراجعه"
+      audit_controls: "الرقابه"
+      risk_assessment_worksheet: "ورقه عمل تقييم المخاطر"
+    audit_execution:
+      home: "تنفيذ المهمه"
+      scheduled_audits: "جدوله المهام"
+      audit_tests: "الاختبار"
+      evidence: "الدليل"
+    audit_issue_tracking:
+      home: "متابعه ملاحظات المراجعه"      
+      audit_issues: "الملاحظات"
+    audit_library:
+      home: "Audit Library"      
+      audit_issues: "Audit Issues"     
+    
+  supported_lang:
+    en: "الانجليزيه"
+    ara: "العربيه"
+  shared:
+    header:
+      english: "الانجليزيه"
+      arabic: "العربيه"
+      professional_business: "الشركة المهنية"
+      edit_profile: "تحرير الملف الشخصي"
+      sign_out: "تسجيل الخروج"
+    header_before_login:
+      english: 'الانجليزيه'
+      arabic: 'العربيه'
+    # Dashboard-> left panel  
+    left_menu:
+      dashboard: "الصفحه الرئيسيه"
+      audit_execution: "تنفيذ المهمه"
+      planning: "التخطيط"
+      audit_issue_tracking: "متابعه ملاحظات المراجعه"
+      system_managements: "اداره النظام"  
+    audit_library: "Audit Library"
+  devise:
+    shared:
+      header:
+        system_header_lbl: "تدقيق"
+      links:
+        sign_in: "تسجيل الدخول"
+        sign_up: "تسجيل الخروج"
+        didnot_receive_conf_q: "لم يتم استلام تعليمات التاكيد"
+        didnot_receive_unlock_instr_q: "لم يتم استلام تعليمات الافقال"
+        forgot_password_q: "نسيت الرقم السري"
+    # Login Page        
+    sessions:
+      new:
+        sign_in: "تسجيل الدخول"
+        username: "اسم المستخدم"
+        password: "الرقم السري"
+        remember_me: "تذكرني"
+        sign_me_in: "سجلني"
+        forgot_password: "نسيت الرقم السري"
+        sign_up: "تسجيل الخروج"
+        professional_business: "الشركة المهنية"
+    #Dashboard page  
+    home:
+      index:
+        dashboard: "Dashboard"
+        audit_execution: "Audit Execution"
+        audit_universe_planning_and_scheduling: "Audit Center Planning and Scheduling"
+        audit_issue_tracking: "Audit Issue Tracking"
+        system_management_admin: "System Managements"
+        audit_library: "Audit Library"
+  audit_library:
+    audit_issues:
+      show:
+        audit_issue_details: "Audit Issue Details"
+        audit_issue_id: "Audit Issue ID"
+        heading: "Heading"
+        audit_issue_nature: "Audit Issue Nature"
+        observation: "Observation"
+        implication: "Implication"
+        recommendation: "Recommendation"
+        audit_issue_risk_rating: "Audit Issue Risk Rating"
+        status: "Status"
+        estimated_implementation_date: "Estimated Implementation Date"
+        audit_issue_owner: "Audit Issue Owner"
+        comments: "Comments"
+        commented_by: "Commented By"
+        add_comment: "Add Comment"
+        comment: "Comment"
+    audits:
+      index:
+        completed_audits: "Completed Audits"
+        audit_center: "Audit Center"
+        start_date: "Start Date"
+        man_days: "man Days"
+      show:
+        audit_processes: "Audit Processes"
+        audit_process: "Audit Process"
+        new_audit_process: "New Audit Process"
+        show_risks: "Show Risks"
+        add_existing_audit_process: "Add Existing Audit Process"
+        risk_universe: "Audit Risks"
+        control_universe: "Audit Controls"
+        audit_risk: "Audit Risk"
+        audit_tests: "Audit Tests"
+        audit_control: "Audit Control"
+        issue_list: "Issue List"
+        new_audit_risk: "New Audit Risk"
+        new_risk_control: "New Risk Control"
+      audit_tests:
+        process: "Process"
+        audit_test: "Audit Test"
+        heading: "Heading"
+        description: "Description"
+        test_conclusion: "Test Conclusion"
+        audit_tests: "Audit Tests"
+        new_audit_test: "New Audit Test"
+      risk:
+        risk_heading: "Risk Heading"
+        description: "Description"
+        risk_type: "Risk Type"
+        risk_category: "Risk Category"
+        risk_probability: "Risk Probability"
+        risk_impact: "Risk Impact"
+        risk_rating: "Risk Rating"
+        edit_audit_risk: "Edit Audit Risk"
+      control:
+        control_heading: "Control Heading"
+        description: "Description"
+        control_effect: "Control Design Effect"
+        control_type: "Control Type"
+        control_category: "Control Category"
+        edit_audit_control: "Edit Audit Control"
+      audit_issues:
+        audit_issue_id: "Audit Issue Id"
+        heading: "Heading"
+        audit_issue_nature: "Audit Issue Nature"
+        observation: "Observation"
+        implication: "Implication"
+        recommendation: "Recommendation"
+        audit_issue_status: "Issue Status"
+        estimated_implementation_date: "Estimated Implementation Date"
+        audit_issue_owner: "Issue Owner"
+        status_update: "Status Update"
+  # Audit execution home
+  audit_execution:
+    home:
+      index:
+        start_new_edit: "بدء مهمه جديده"
+        open_exisiting_audit: "فتح مهمه قائمه"
+        audit_processes: "العمليات"
+        audit_center_risk_assessment: "تقييم المخاطر مركز التدقيق"
+        current_audits: "Current Audits"
+        audit_center: "Audit Center"
+        start_date: "Start Date"
+        man_days: "Man Days"
+        complete_date: "Complete Date"
+        completed_audits: "Completed Audits"
+    scheduled_audits:
+      index:
+        scheduled_audits: "جدوله المهام"
+        audit_center: "مراكز المراجعه"
+        start_date: "تاريخ البدء"
+        man_days: "عدد الايام"
+        actions: "تطبيقات"
+        start_audit: "بدء مهمه"
+        start_adhoc_audit: "بدء مهمه غير مجدوله"
+        select_existing_audits: "Select Existing Audits"
+      existing_audits:
+        new_audit_test: "Select Audit to Start"  
+        existing_audit: "Existing Audit"
+      adhoc_audits:
+        adhoc_audits:
+        adhoc_audits: "مهمه غير مجدوله"
+        audit_center: "مركز المراجعه"
+        man_days: "عدد الايام"
+        actions: "تطبيقات"
+        start_audit: "بدء مهمه"
+      open_audits:
+        open_audits: "فتح مهمه  "
+        audit_center: "مركز المراجعه"
+        location: "الاماكن"
+        entity: "كيانات المراجعه"
+        audit_group: "اسم المجموعه"
+        last_audit_group: "مشاركة المجموعة التدقيق"
+        audit_rating: "تقييم المهمه"
+        audit_in_charge: "الموظف المكلف"
+        actions: "تطبيقات"
+        audit_processes: "العمليات"
+        new_audit_process: "جديدة عملية المراجعة"
+        details: "التفاصيل"
+        audit_process: "العمليات"
+        last_audit_year: "Last Audit Year"
+        audit_year: "Audit Year"
+
+      show:
+        audit_center: "مركز المراجعه"
+        audit_processes: "تفاصيل مهام العمل"
+        risk: "المخاطر"
+        risk_impact: "تقييم المخاطر"
+        risk_probability: "احتماليه وقوع المخاطر"
+        audit_controls: "الدور الرقابي"
+        effectiveness: "فعالية"
+        audit_tests: "الاختبار"
+        add_test_risk: "اضافه اختبار للدور الرقابي"
+        audit_test_process: "ضافه اختبار لعمليه"
+        no_audit_process: "لايوجد عمليات في هذا المركز"
+        no_risks: "لايوجد مخاطر مضافه للعمليه"
+    audit_processes:
+      index:
+        audit_processes: "عمليات المراجعه"
+        audit_process: "تفاصيل العمليه"
+        new_audit_process: "اضافه عمليه"
+        show_risks: "اظهار المخاطر"
+        add_existing_audit_process: "Add Existing Audit Process"
+        risk_universe: "Audit Risks"
+        control_universe: "Audit Controls"
+        audit_risk: "Audit Risk"
+        audit_tests: "Audit Tests"
+        audit_control: "Audit Control"
+        issue_list: "Issue List"
+        new_audit_risk: "New Audit Risk"
+        new_risk_control: "New Risk Control"
+      complete:
+        audit_processes: "Audit Processes"
+        audit_process: "Audit Process"
+        new_audit_process: "New Audit Process"
+        show_risks: "Show Risks"
+        add_existing_audit_process: "Add Existing Audit Process"
+        risk_universe: "Audit Risks"
+        control_universe: "Audit Controls"
+        audit_risk: "Audit Risk"
+        audit_tests: "Audit Tests"
+        audit_control: "Audit Control"
+        issue_list: "Issue List"
+        new_audit_risk: "New Audit Risk"
+        new_risk_control: "New Risk Control"
+      audit_test_audit_issue:
+        audit_issues: "Audit Issues"
+        observation: "Observation"
+        implication: "Implication"
+        recommendation: "Recommendation"
+        management_response: "Management Response"
+        audit_process: "Audit Process"
+        new_audit_issue: "New Audit Issue"
+        audit_evidence: "Audit Evidence"
+        comment: "Comment"
+        file_download: "File Download"
+        new_evidence: "New Evidence"
+        add_review_comments: "Add Review Comments"
+        add_review_comment: "Add Review Comment"
+        commented_by: "Commented By"
+        heading: "Heading"
+      audit_tests:
+        process: "Process"
+        audit_test: "Audit Test"
+        heading: "Heading"
+        description: "Description"
+        test_conclusion: "Test Conclusion"
+        audit_tests: "Audit Tests"
+        new_audit_test: "New Audit Test"
+        audit_issues: "Audit Issues"
+        observation: "Observation"
+        implication: "Implication"
+        recommendation: "Recommendation"
+        management_response: "Management Response"
+        audit_process: "Audit Process"
+        new_audit_issue: "New Audit Issue"
+        audit_evidence: "Audit Evidence"
+        comment: "Comment"
+        file_download: "File Download"
+        new_evidence: "New Evidence"
+        add_review_comments: "Add Review Comments"
+        add_review_comment: "Add Review Comment"
+        commented_by: "Commented By"
+      display_review_comment_response:
+        response_created_by: "Response Created By"
+      display_review_comments:
+        add_response: "Add Response"  
+        commented_by: "Commented By"
+        comment: "Comment"
+        add_review: "Add Review"
+      risk:
+        risk_heading: "Risk Heading"
+        description: "Description"
+        risk_type: "Risk Type"
+        risk_category: "Risk Category"
+        risk_probability: "Risk Probability"
+        risk_impact: "Risk Impact"
+        risk_rating: "Risk Rating"
+        edit_audit_risk: "Edit Audit Risk"
+      control:
+        control_heading: "Control Heading"
+        description: "Description"
+        control_effect: "Control Design Effect"
+        control_type: "Control Type"
+        control_category: "Control Category"
+        edit_audit_control: "Edit Audit Control"
+      audit_issues:
+        audit_issue_id: "Audit Issue Id"
+        heading: "Heading"
+        audit_issue_nature: "Audit Issue Nature"
+        observation: "Observation"
+        implication: "Implication"
+        recommendation: "Recommendation"
+        audit_issue_status: "Issue Status"
+        estimated_implementation_date: "Estimated Implementation Date"
+        audit_issue_owner: "Issue Owner"
+        status_update: "Status Update"    
+
+      new_ajax:
+        new_audit_process: "عمليه مراجعه جديده"
+        create_audit_process: "اضافه عمليه مراجعه"
+      new:
+        new_audit_process: "عمليه مراجعه جديده"
+        create_audit_process: "اضافه عمليه مراجعه"
+      edit:
+        edit_audit_process: "تحرير عمليه "
+        update_audit_process: "تعديل عمليه"  
+      form:  
+        audit_process: "عمليات المراجعه"
+        details: "التفاصيل"
+      show:
+        show_audit_process: "عمليه مراجعه  "
+        audit_process: "Audit Process"
+        details: "Details"
+        audit_risks: "Audit Risks"
+        new_audit_risks: "New Audit Risks"
+        audit_control: "Audit Control"
+        new_control: "New Control"
+        audit_tests: "Audit Tests"
+        new_audit_test: "New Audit Test"
+        new_operating_effect: "New Operating Effect"
+      process_risk_control_table:
+        risk: "المخاطر"
+        control: "الدور الرقابي"
+        risks_control: "المخاطر و الدور الرقابي"    
+    risk_universes:
+      index:
+        risk_universes: "مخاطر المراجعه"
+        risk_heading: "عنوان المخاطر"
+        description: "التفاصيل"
+        risk_type: "نوع المخاطر"
+        risk_category: "فئه المخاطر"
+        risk_controls: "الرقابه"
+        new_audit_risk: "اضافه مخاطر"
+      new_ajax:
+        new_audit_risk: "اضافه مخاطر"
+        create_audit_risk: "انشاء مخاطر"
+      new:
+        new_audit_risk: "اضافه مخاطر"
+        create_audit_risk: "انشاء مخاطر"
+      edit:
+        edit_audit_risk: "تعديل المخاطر"
+        update_audit_risk: "تحديث المخاطر"
+      form:
+        risk_heading: "عنوان المخاطر"
+        description: "الوصف"
+        risk_category: "فئه المخاطر"
+        risk_type: "نوع المخاطر"         
+    control_universes:
+      index:
+        risk_controls: "الرقابه"
+        heading: "العنوان"
+        description: "الوصف"
+        control_type: "نوع الرقابه"
+        control_category: "فئه الرقابه"
+        new_risk_control: "رقابه جديده"
+      operating_effect:
+        operating_effect: "ara Operating Effect"
+        add_operating_effect: "ara Add Operating Effect"  
+      new_ajax:
+        new_audit_risk_control: "اضافه رقابه"
+        create_risk_control: "انشاء رقابه"
+      new:
+        new_audit_risk_control: "اضافه رقابه"
+        create_risk_control: "انشاء رقابه"
+      edit:
+        edit_audit_risk_control: "تحرير الدور الرقابي"
+        update_risk_control: "تعديل الدور الرقابي"
+      show:
+        edit_audit_risk_control: "تحرير الدور الرقابي"  
+      form:
+        heading: "العنوان"
+        description: "الوصف"
+        control_type: "نوع الرقابه"
+        control_category: "فئه الرقابه"          
+    audit_center_risk_assessments:
+      index:
+         risk_assessment_worksheet: "ورقه عمل تقييم المخاطر"
+         residual_score: "درجه المخاطر المتبقيه بعد الدور الرقابي"
+      show:
+        audit_processes: "عمليات المراجعه"
+        audit_risk: "المخاطر"
+        risk_impact: "الاثر"
+        risk_probability: "الاحتماليه"
+        risk_score: "درجه المخاطر  "
+        residual_score: "درجه المخاطر المتبقيه بعد الدور الرقابي"
+        risk_controls: "الرقابه"
+        risk_effectiveness: "الفعاليه"
+        update: "تحديث  "
+        no_risk: "لا يوجد مخاطر مضافه لهذه العمليه"
+    ewp_line_items:
+      index:
+        audit_tests: "الاختبارات"
+        process: "العمليات"
+        audit_test: "الاختبارات"
+        heading: "ara Heading"
+        description: "الوصف"
+        test_conclusion: "نتيجه الفحص"
+        new_audit_test: "اضافه اختaبار جديد"
+      new_ajax:
+        new_audit_test: "اضافه اختبار جديد"
+        create_audit_test: "اضافه اختبار"
+      new:
+        new_audit_test: "اضافه اختبار جديد"
+        create_audit_test: "اضافه اختبار"
+      edit:
+        edit_audit_test: "تحرير الاختبار"
+        update_audit_test: "تعديل الاختبار"
+      form:
+        audit_test: "فحص"
+        heading: "ara Heading"
+        test_conclusion: "نتيجه الفحص"
+        description: "الوصف"
+      show:
+        test_details: "تفاصيل الاختبار"
+        audit_process: "العمليات"
+        audit_test: "فحص"
+        heading: "عنوان"
+        description: "الوصف"
+        status: "الحاله"
+        audit_issues: "ملاحظه"
+        observation: "ملاحظة"
+        implication: "الاثر"
+        recommendation: "التوصيات"
+        management_response: "رد الاداره"
+        audit_process: "عمليات"
+        new_audit_issue: "ملاحظه جديده"
+        audit_evidence: "دليل"
+        comment: "ملاحظات  "
+        file_download: "الملف"
+        new_evidence: "دليل جديد"
+        add_review_comment: "اضافه ملاحظه "
+        add_review_comment: "Add Comments"
+      display_review_comments:
+        commented_by: "تم الاضافه بواسطه"
+        add_response: "اضافه رد"
+        comment: "الملاحظات"
+        add_review: "اضافه مراجعه"
+      display_review_comment_response:
+        response_created_by: "تم اضافه رد بواسطه"
+      complete_test:
+        new_audit_test: "Complete Test"  
+    ewp_evidence_areas:
+      index:
+        audit_test_evidence: "دليل"
+        evidence: "دليل"
+        filepath: "ملف"
+        audit_test: "اختبار"
+        new_test_evidence: "اضافه دليل جديد"
+      new_ajax:
+        new_test_evidence: "New test Evidence"
+        create_test_evidence: "Create Evidence"
+      new:
+        new_test_evidence: "اضافه دليل جديد"
+        create_test_evidence: "انشاء دليل"
+      edit:
+        edit_test_evidence: "تحرير دليل"
+        update_evidence: "تحديث دليل"
+      form:
+        evidence: "ملاحظات"
+        evidence_file_data: "دليل"
+    audit_issues:
+      new:
+        new_audit_issue: "ملاحظه جديده"
+        create_audit_issue: "انشاء ملاحظه جديده"
+      new_ajax:
+        new_audit_issue: "ملاحظه جديده"
+        create_audit_issue: "انشاء ملاحظه جديده"  
+      edit:
+        edit_audit_issue: "تحرير ملاحظه"
+        update_audit_issue: "تحديث ملاحظه"
+      form:
+        heading: "عنوان"
+        audit_issue_nature: "طبيعه ملاحظات المراجعه"
+        observation: "الملاحظه"
+        implication: "الاثر"
+        recommendation: "التوصيات"
+        management_response: "رد الاداره"
+        audit_issue_risk_rating: "تقييم المخاطر"
+        audit_issue_status: "حاله الملاحظه"
+        estimated_implementation_date: "التاريخ المتوقع"
+        audit_issue_owner: "مالك الملاحظه"
+      index:
+        audit_issues: "الملاحظات"
+        audit_issue_id: "رقم الملاحظه"
+        heading: "عنوان الملاحظه"
+        audit_issue_nature: "طبيعه الملاحظه"
+        observation: "وصف الملاحظه"
+        implication: "التأثير"
+        recommendation: "التوصيات"
+        audit_issue_status: "حاله الملاحظه"
+        estimated_implementation_date: "التاريخ المستهدف"
+        audit_issue_owner: "مالك الملاحظه"
+        status_update: "تحديث الحاله"
+        new_audit_issue: "ملاحظه جديده"     
+      show:
+        show_audit_issue: "عرض الملاحظات"      
+  planning:
+    home:
+      index:
+        audit_entities: "كيانات المراجعه"
+        audit_center: "مراكز المراجعه"
+        audit_center_prioritization_sheet: "اولويات مهام المراجعه"
+        annual_audit_schedule: "جدوله المهام السنويه"
+        scheduled_audits: "مهام مجدوله"
+    audit_universes:
+      processes:
+        audit_centers: "مراكز المراجعه"
+        location: "المكان"
+        entity: "الكيان"
+        audit_group: "اسم المجموعه"
+        last_audit_year: "اخر سنه تم فيها المراجعه"
+        audit_rating: "تقييم المهمه"
+        audit_in_charge: "المراجع المسئول"
+        status: "الحاله"
+      risk_factors:
+        new_risk_factor: "عامل مخاطر جديد"
+        risk_factor: "عوامل المخاطر"
+        risk_weight: "الوزن"
+        risk_probability: "الاحتماليه"
+        add_risk_factor: "اضافه عامل مخاطر جديد"
+        risk_factors: "عوامل المخاطر"
+        weights: "وزن المخاطر"
+        probability: "الاحتماليه"
+        actions: "تطبيقات"
+      index:
+        audit_center: "مراكز المراجعه"
+        location: "الاماكن"
+        Entity: "الكيان"
+        audit_group: "اسم المجموعه"
+        last_audit_year: "اخر سنه تم فيها المراجعه"
+        audit_rating: "تقييم المهمه"
+        audit_in_charge: "المراجع المسئول"
+        status: "الحاله"
+        actions: "تطبيقات"
+        edit: "تحرير"
+        manage_staff: "اداره المراجعيين"
+        new_audit_center: "مركز مراجعه جديده"
+      new:
+        header_lbl: "مركز مراجعه  "
+      form:  
+        audit_center: "مركز مراجعه"
+        background: "معلومات عامه"
+        objective: "الهدف من المراجعه"
+        scope: "نطاق المراجعه"
+        last_audit_year: "اخر سنه تم فيها المراجعه"
+        required_man_days: "عدد الايام"
+        location: "المكان"
+        entity: "الكيان"
+        audit_group: "مجموعه المراجعه"
+        audit_rating: "تقيييم المهمه"
+        audit_in_charge: "المراجع المسئول"
+        select_audit_staff: "اختيار مراجع"
+        select_client_staff: "اختيار عميل"
+        create_audit_center_btn: "انشاء مركز مراجعه"
+        edit_audit_center_btn: "تعديل مركز مراجعه"
+        cancel: "الغاء"              
+      show_staff:
+        audit_staff_lbl: "مراجع لمركز مراجعه"
+        audit_staff: "مراجع  "
+        client_staff: "عميل"
+        select_staff: "اختيار موظف"
+      show_staff_table:
+        name: "الاسم"
+        designation: "الوصف الوظيفي"
+        actions: "تطبيقات"
+        remove: "ازاله"
+      update_staff:
+        add_staff: "اضافه موظف"
+      update_audit_staff:  
+        select_audit_staff: "اختيار مراجع"
+        select_client_staff: "اختيار عميل"
+        add_staff: "اضافه موظف"
+      edit:
+        edit_audit_center: "تعديل مركز مراجعه"
+    audit_center_priorities:
+      index:
+        audit_center_prioritization_worksheet: "اولويات مهام المراجعه"
+        audit_center: "مركز مراجعه"
+        risk_score: "درجة المخاطر"
+        priority: "الاولويات"
+        audit_frequency: "تكرار مهمه المراجعه"
+        actions: "تطبيقات"
+        manage_risk_factors: "اداره درجات المخاطر"
+        download_pdf_result: "Download Result in PDF"
+        download_xls_result: "Download Result in XLS"            
+    annual_audit_schedules:
+      index:
+        annual_audit_schedule: "جدول مهمات المراجعه السنوي"
+        year: "السنه"
+        actions: "تطبيقات"
+        new_annual_audit_schedule: "جدوله مهمات سنويه جديده"
+        new_audit: "New Audit"
+      show:
+        scheduled_audits: "جدوله مهمه مراجعه"
+        year: "السنه"
+        audit_center: "مركز مراجعه"
+        start_date: "تاريخ بدء المهمه"
+        end_date: "تاريخ انتهاء المهمه"
+      aatable:
+        year: "السنه"
+        audit_center: "مركز مراجعه"
+        start_date: "تاريخ بدء المهمه"
+        end_date: "تاريخ انتهاء المهمه"
+        new_schedule_audit: "جدوله مهمه مراجعه جديده"
+    aa_line_items:
+      aatable:
+        audit_schedule: "المهام المجدوله"
+        audit_center: "مركز المراجعه"
+        start_date: "تاريخ بدء المهمه"
+        end_date: "تاريخ انتهاء المهمه"
+        actions: "تطبيقات"
+        new_audit: "جدوله مهمه مراجعه جديده"
+      new:
+        new_audit_schedule: "جدوله مهمه مراجعه جديده"
+        create_audit_schedule: "انشاء جدوله مهمام "
+      edit:
+        update_audit_schedule: "تعديل المهام المجدوله"
+        edit_audit_schedule: "تحرير المهام المجدوله"  
+      form:
+        add_frequency: "اضافه تكرار "
+        audit_in_charge: "المراجع المسئول"
+        audit_group: "مجموعه المراجعه"
+        audit_center: "مركز المراجعه"        
+        start_date: "تاريخ بدء المهمه"
+        end_date: "تاريخ انتهاء المهمه"
+        audit_duration: "مده المراجعه"
+        audit_frequency: "Audit Frequency"
+    entities:
+      index:
+        entities: "Entities"
+        name: "Name"
+        new_entity: "New Entity"
+      new:
+        new_entity: "New Entity"
+        create_entity: "Create Entity"
+      edit:
+        edit_entity: "Edit Entity"
+        update_entity: "Update Entity"
+      form:
+        name: "Name"  
+  audit_issue_tracking:
+    home:
+      index:
+        audit_issue_management: "اداره الملاحظات"
+        management_reporting: "اداره التقارير"                                         
+    audit_issues:
+      index:
+        audit_issues: "الملاحظات"
+        issue_id: "رقم الملاحظه"
+        heading: "عنوان الملاحظه"
+        audit_issue_nature: "طبيعه الملاحظه"
+        observation: "تفاصيل الملاحظه"
+        implication: "التاثير"
+        recommendation: "التوصيات"
+        audit_issue_risk_rating: "تقييم المخاطر"
+        status: "الحاله"
+        estimated_implementation_date: "الوقت المستهدف"
+        audit_issue_owner: "المالك"
+      show:
+        audit_issue_details: "اظهار تفاصيل الملاحظه"
+        audit_issue_id: "رقم  الملاحظه"
+        heading: "العنوان"
+        audit_issue_nature: "طبيعه الملاحظه"
+        observation: "تفاصيل الملاحظه"
+        implication: "التاثير"
+        recommendation: "التوصيات"
+        audit_issue_risk_rating: "تقييم المخاطر"
+        status: "الحاله"
+        estimated_implementation_date: "الوقت المستهدف"
+        audit_issue_owner: "المالك"
+        comments: "ملاحظات"
+        commented_by: "تم بواسطه"
+        add_comment: "اضافه ملاحظه "
+        comment: "ملاحظات"            
+  admin:
+    audit_staffs:
+      index:
+        audit_staffs: "المراجعيين"
+        name: "الاسم"
+        title: "الوصف الوظيفي"
+        department: "الاداره"
+        contact_number: "رقم الاتصال"
+        email: "البريد الاليكتروني"
+        new_audit_staff: "اضافه تفاصيل مراجع"
+      new:
+        new_audit_staff: "اضافه تفاصيل مراجع"
+        create_audit_staff: "انشاء تفاصيل مراجع"
+      form:
+        name: "الاسم"
+        title: "الوصف الوظيفي"
+        department: "الاداره"
+        contact_number: "رقم الاتصال"
+        email: "البريد الاليكتروني"
+        username: "اسم المستخدم"
+        password: "الرقم السري"
+        password_confirmation: "اعاده ادخال الرقم السري"
+        select_role: "اختيار وظيفه"
+      edit:
+        edit_audit_staff: "تحرير تفاصيل مراجع"
+        update_audit_staff: "تعديل تفاصيل مراجع"  
+    client_staffs:
+      index:
+        client_staffs: "تفاصيل العميل"
+        name: "الاسم"
+        title: "الوصف الوظيفي"
+        department: "الاداره"
+        contact_number: "رقم الاتصال"
+        email: "البريد الاليكتروني"
+        new_client_staff: "اضافه عميل جديد"
+      new:
+        new_client_staff: "اضافه عميل جديد"
+        create_client_staff: "انشاء تفاصيل عميل جديد"
+      form:
+        name: "الاسم"
+        title: "الوصف الوظيفي"
+        department: "الاداره"
+        contact_number: "رقم الاتصال"
+        email: "البريد الاليكتروني"
+        username: "اسم المستخدم"
+        password: "الرقم السري"
+        password_confirmation: "اعاده ادخال الرقم السري"
+        select_role: "اختيار وظيفه"
+      edit:
+        edit_client_staff: "اضافه عميل جديد"
+        update_client_staff: "انشاء تفاصيل عميل جديد"  
+    locations:
+      index:
+        locations: "اضافه مكان"
+        country: "الدوله"
+        state: "الولايه"
+        city: "المدينه"
+        location: "المكان"
+        new_location: "اضافه مكان"
+      form:
+        country: "Country"
+        state: "State"
+        city: "City"
+        location: "Location" 
+      new:
+        new_location: "اضافه مكان"
+        create_new_location: "انشاء مكان"
+      edit:
+        edit_location: "تحرير مكان"
+        update_location: "تعديل مكان"
+    rights_managements:
+      rights_matrix:
+        modules: "Modules"
+      spcl_rights_matrix:
+        modules: "Modules"
+        audit_process: "Audit Process"
+        risk_universe: "Audit Risks"
+        control_universe: "Audit Controls"
+        ewp_line_item: "Audit Tests"
+        ewp_evidence_area: "Evidences"
+        ewp_review_comment: "Review Comment"
+      edit:
+        rights_management: "Rights Management"
+        modules: "Modules"
+        update_rights: "Update Rights"
+      index:
+        rights_management: "اداره الصلاحيات"
+        modules: "الصفحات"
+        edit_rights_management: "تعديل الصلاحيات"
+      new:
+        rights_management: "اداره الصلاحيات"
+        modules: "الصفحات"
+        update_rights: "تعديل الصلاحيات"
+    user_role_types:
+      index:
+        role_types: "نوعيه الصلاحيه"
+        role_type: "نوعيه الصلاحيه"
+        state: "الحاله"
+        new_role_type: "اضافه صلاحيه"
+      new:
+        new_role_type: "اضافه صلاحيه"
+        create_role_type: "انشاء صلاحيه دخول"
+      edit:
+        edit_role_type: "تحرير صلاحيه دخول"
+        update_role_type: "تعديل صلاحيه دخول"
+      form:
+        name: "الاسم"
+        state: "الحاله"    
+    roles:
+      index:
+        roles_management: "اداره الصلاحيات"
+        role_name: "اسم الصلاحيه"
+        state: "الحاله"
+        role_type: "نوع الصلاحيه"
+        new_role: "صلاحيه دخول جديده"
+      new:
+        new_role: "صلاحيه دخول جديده"
+        create_role: "انشاء صلاحيه دخول"
+      edit:
+        edit_role: "تحرير صلاحيه دخول"
+        update_role: "تعديل صلاحيه دخول"
+      form:
+        name: "الاسم"
+        state: "الحاله"
+        role_type: "نوع صلاحيه الدخول"
+  system_managements:
+    home:
+      index:
+        system_master_data: "اداره البيانات"
+        security_settings: "اعدادت الامان"
+        access_rights: "صلاحيه الدخول"
+        roles_management: "اداره صلاحيه الدخول"
+        user_role_types: "اداره المستخدمين"
+        dual_funciton_settings: "اعدادات امر الادخال و التعميد"
+        single_sign_on_settings: "اعدادت صلاحيه الدخول الموحد"
+        email_notifications: "إخطارات البريد الإلكتروني"
+        email_notification_events: "احداث إخطارات البريد الإلكتروني"
+    control_types:
+      index:
+        control_types: "Control Types"
+        new_control_type: 'New Control Type'
+        control_type: "Control Type"
+      new:
+        new_control_type: "New Control Type"
+        create_control_type: "Create Control Type"
+      form:
+        control_type: 'Control Type'   
+      edit:
+        edit_control_type: "Edit Control Type"
+        update_control_type: "Update Control Type"
+    risk_types:
+      index:
+        risk_types: "Risk Types"
+        new_risk_type: 'New Risk Type'
+        risk_type: "Risk Type"
+      new:
+        new_risk_type: "New Risk Type"
+        create_risk_type: "Create Risk Type"
+      form:
+        risk_type: 'Risk Type'   
+      edit:
+        edit_risk_type: "Edit Risk Type"
+        update_risk_type: "Update Risk Type"
+    settings:
+      index:
+        audit_center: "مركز مهام المراجعه"
+        audit_center_priorities: "اولويات مهام المراجعه"
+        audit_groups: "مجموعه المراجعه"
+        audit_ratings: "تقييم مهام المراجعه"
+        audit_frequencies: "تكرار مهام المراجعه"
+        risk: "المخاطر"
+        risk_categories: "فئات المخاطر"
+        risk_factors: "عوامل المخاطر"
+        risk_impacts: "تاثير المخاطر"
+        risk_probabilities: "احتماليه المخاطر"
+        risk_weights: "وزن المخاطر"
+        user_location: "المستخدمين و الاماكن"
+        control: "الرقابه"
+        control_categories: "فئات الرقابه"
+        control_effects: "تاثير الرقابه"
+        control_operating_effects: "السيطرة على الآثار التشغيل"
+        audit_execution: "تنفيذ المهام"
+        audit_program_status: "حاله برنامج المراجعه"
+        audit_issue_status: "حاله ملاحظات المراجعه"
+        audit_issue_nature: "طبيعه الملاحظه"
+        audit_issue_risk_rating: "تقييم الملاحظات"
+        audit_program_statuses: "تماثيل برنامج التدقيق"
+        audit_issue_statuses: "المنزلة العدد التدقيق"
+        audit_issue_risk_ratings: "مراجعة تقييم المخاطر العدد"
+        audit_staffs: "موظفو التدقيق"
+        client_staffs: "موظفو العميل"
+        locations: "المواقع"
+    audit_center_priorities:
+      index:
+        audit_center_priority: "اولويات مهام المراجعه"
+        priority: "الاولويات"
+        score_start: "قيمه بدايه درجه التقييم"
+        score_end: "قيمه نهايه درجه التقييم"
+        new_audit_center_priority: "اولويات مهام المراجعه جديده"
+      new:
+        new_audit_center_priority: "اولويات مهام المراجعه جديده"
+        create_audit_center_priority: "اضافه اولويات"      
+      form:
+        priority: "اولويات مهام المراجعه"
+        slab_start_value: "الحد الأدنى القيمة"
+        slab_end_value: "أقصى قدر من القيمة"
+      edit:
+        edit_audit_center_priority: "تحرير اولويات المهام"
+        update_audit_center_priority: "تعديل اولويات المهام"    
+    audit_groups:
+      index:
+        audit_groups: "مجموعه المراجعه"
+        name: "الاسم"
+        new_audit_group: "مجموعه مراجعه جديده"
+      new:
+        new_audit_group: "مجموعه مراجعه جديده"
+        create_audit_group: "انشاء مجموعه مراجعه"
+      edit:
+        edit_audit_group: "تحرير مجموعه المراجعه"
+        update_audit_group: "تعديل مجموعه المراجعه"
+      form:
+        group_name: "اسم المجموعه"
+    audit_ratings:
+      index:
+        audit_ratings: "تقييم المهمه"
+        rating: "الاسم"
+        rating_label: "تصنيف العلامة"
+        new_audit_rating: "تقييم مهام جديد"
+      new:
+        new_audit_rating: "تقييم مهام جديد"
+        create_audit_rating: "انشاء تقييم مهام "
+      edit:
+        edit_audit_rating: "تحرير تقييم مهام"
+        update_audit_rating: "تعديل تقييم مهام"
+      form:
+        rating: "التقييم"
+        rating_label: "تصنيف العلامة"          
+    audit_frequencies:
+      index:
+        audit_frequency: "تكرار مهام المراجعه"
+        frequency: "التكرار"
+        months: "الاشهر"
+        description: "الوصف"
+        new_audit_frequency: "تكرار مهمه مراجعه جديد"                   
+      new:
+        new_audit_frequency: "تكرار مهمه مراجعه جديد"
+        create_audit_frequency: "انشاء تكرار مهمه مراجعه"
+      edit:
+        edit_audit_frequency: "تحرير تكرار مهام المراجعه"
+        update_audit_frequency: "تعديل تكرار مهام المراجعه"
+      form:
+        frequency: "التكرار"
+        months: "الاشهر"
+        description: "الوصف"                
+    control_effects:
+      index:
+        control_effectiveness: "فعاليه الرقابه"
+        effectiveness: "الفعاليه"
+        value: "القيمه"
+        description: "الوصف"
+        new_control_effect: "فعاليه رقابه جديده"
+      new:
+        new_control_effect: "فعاليه رقابه جديده"
+        create_control_effect: "انشاء فعاليه رقابه"
+      edit:
+        edit_control_effect: "تحرير فعاليه رقابه"
+        update_control_effect: "تعديل فعاليه رقابه"
+      form:
+        effect: "الاثر"
+        value: "القيمه"
+        description: "الوصف"                  
+    control_operating_effects:
+      index:
+        control_effectiveness: "مراقبة فعالية التشغيل"
+        effect: "فعالية"
+        value: "قيمة"
+        new_control_operating_effect: "طريقة جديدة لتنظيم تأثير التشغيل"
+      new:
+        new_control_operating_effect: "طريقة جديدة لتنظيم تأثير التشغيل"
+        create_control_operating_effect: "إنشاء مراقبة تأثير التشغيل"
+      edit:
+        edit_control_operating_effect: "تحكم تحرير تأثير التشغيل"
+        update_control_operate_effect: "مراقبة تحديث تأثير التشغيل"
+      form:
+        name: "تأثير"
+        value: "قيمة"
+    control_categories:
+      index:
+        control_categories: "فئات الرقابه"
+        category: "الفئات"
+        description: "الوصف"
+        new_control_category: "فئه رقابه جديد"    
+      new:
+        new_control_category: "فئه رقابه جديد"
+        create_control_category: "انشاء فئه رقابه جديد"
+      edit:
+        edit_control_category: "تحرير فئه رقابه "
+        update_control_category: "تعديل فئه رقابه"
+      form:
+        category: "الفئات"
+        description: "الوصف"    
+    risk_categories:
+      index:
+        risk_categories: "فئات المخاطر"
+        category: "الفئات"
+        description: "الوصف"
+        new_risk_category: "فئه مخاطر جديد"
+      new:
+        new_risk_category: "فئه مخاطر جديد"
+        create_risk_category: "انشاء فئه مخاطر"
+      form:
+        category: "الفئات"
+        description: "الوصف"
+      edit:
+        edit_risk_category: "تحرير فئه مخاطر"
+        update_risk_category: "تعديل فئه مخاطر"      
+    risk_factors:
+      index:
+        risk_factors: "فئه المخاطر"
+        name: "الاسم"
+        description: "الوصف"
+        new_risk_factor: " فئه مخاطرجديد"
+      new:
+        new_risk_factor: " فئه مخاطرجديد"
+        create_risk_factor: "انشاء  فئه مخاطر"
+      form:
+        risk_name: "اسم الخطر"
+        description: "الوصف"
+      edit:
+        edit_risk_factor: "تحرير فئه مخاطر"
+        update_risk_factor: "تعديل فئه مخاطر"          
+    risk_impacts:
+      index:
+        risk_impacts: "تاثير المخاطر"
+        impacts: "التاثير"
+        value: "القيمه"
+        description: "الوصف"
+        new_risk_impact: "تاثير مخاطر جديد"
+      new:
+        new_risk_impact: "تاثير مخاطر جديد"
+        create_risk_impact: "انشاء فئه مخاطر"
+      form:
+        impact: "التاثير"
+        value: "القيمه"
+        description: "الوصف"
+      edit:
+        edit_risk_impact: "تحرير فئه مخاطر"
+        update_risk_impact: "تعديل فئه مخاطر"
+    risk_probabilities:
+      index:
+        risk_probabilities: "احتماليه وقوع المخاطر"
+        probability: "الاحتماليات"
+        description: "الوصف"
+        new_risk_probability: "احتماليه وقوع المخاطر جديد"
+      new:
+        new_risk_probability: "احتماليه وقوع المخاطر جديد"
+        create_risk_probability: "انشاء احتماليه وقوع المخاطر"
+      form:
+        probability: "الاحتماليات"
+        description: "الوصف"
+      edit:
+        edit_risk_probability: "تحرير احتماليه وقوع المخاطر"
+        update_risk_probability: "تعديل احتماليه وقوع المخاطر"    
+    risk_weights:
+      index:
+        risk_weights: "وزن المخاطر"
+        weights: "الاوزان"
+        label: "ara Label"
+        new_risk_weights: "وزن المخاطر جديد"
+      new:
+        new_risk_weight: "وزن المخاطر جديد"
+        create_risk_weight: "انشاء وزن المخاطر"
+      form:
+        weight: "الاوزان"
+        description: "الوصف"
+      edit:
+        edit_risk_weight: "تحرير وزن المخاطر"
+        update_risk_weight: "تعديل وزن المخاطر"
+    audit_program_statuses:
+      index:
+        audit_program_statuses: "حاله برنامج المراجعه"
+        status: "الحاله"
+        new_audit_program_status: "حاله برنامج المراجعه جديد"
+      new:
+        new_audit_program_status: "حاله برنامج المراجعه جديد"
+        create_audit_program_status: "انشاء حاله برنامج المراجعه"
+      form:
+        status: "الحاله"
+      edit:
+        edit_audit_program_status: "تحرير حاله برنامج المراجعه"
+        update_audit_program_status: "تعديل حاله برنامج المراجعه"   
+      show:
+        show_audit_program_status: "حاله برنامج المراجعه"
+    audit_issue_statuses:
+      index:
+        audit_issue_statuses: "حاله برنامج المراجعه"
+        status: "الحاله "
+        description: "الوصف"
+        new_audit_issue_status: "حاله ملاحظات المراجعه جديده"
+      new:
+        new_audit_issue_status: "حاله ملاحظات المراجعه جديده"
+        create_audit_issue_status: "انشاء حاله ملاحظات المراجعه "
+      form:
+        status: "الحاله"
+        description: "الوصف"
+      edit:
+        edit_audit_issue_status: "تحرير حاله ملاحظات المراجعه "
+        update_audit_issue_status: "تعديل حاله ملاحظات المراجعه "   
+      show:
+        show_audit_issue_status: "حاله ملاحظات المراجعه "
+    audit_issue_natures:
+      index:
+        audit_issue_natures: "طبيعه الملاحظه"
+        nature: "الطبيعه"
+        description: "الوصف"
+        new_audit_issue_nature: "طبيعه الملاحظه جديده"
+      new:
+        new_audit_issue_nature: "طبيعه الملاحظه جديده"
+        create_audit_issue_nature: "انشاء طبيعه الملاحظه"
+      form:
+        nature: "Nature"
+        description: "الوصف"
+      edit:
+        edit_audit_issue_nature: "تحرير طبيعه الملاحظه"
+        update_audit_issue_nature: "تعديل طبيعه الملاحظه"   
+      show:
+        show_audit_issue_nature: "طبيعه الملاحظات"
+    audit_issue_risk_ratings:
+      index:
+        audit_issue_risk_ratings: "تقييم الملاحظات"
+        rating: "Rating"
+        weights: "الوزن"
+        new_audit_issue_risk_rating: "تقييم الملاحظات جديد"
+      new:
+        new_audit_issue_risk_rating: "تقييم الملاحظات جديد"
+        create_audit_issue_risk_rating: "انشاء تقييم الملاحظات"
+      form:
+        rating: "التقييم"
+        weight: "الوزن"
+      edit:
+        edit_audit_issue_risk_rating: "تحرير طبيعه الملاحظه"
+        update_audit_issue_risk_rating: "تعديل طبيعه الملاحظه"   
+      show:
+        show_audit_issue_risk_rating: "تقييم الملاحظات"
+    security_settings:
+      index:
+        security_settings: "اعدادات الامان"
+        minimum_password_length: "الحد الادني للرقم السري"
+        maximum_password_length: "الحد الاقصي للرقم السري"
+        password_complexity: "صعوبه الرقم السري"
+        minimum_alphabet_char_length: "الحد الادني للاحرف في الرقم السري"
+        minimum_numeric_char_length: "الحد الادني للارقام في الرقم السري"
+        minimum_special_char_length: "الحد الادني للارقام الخاصه في الرقم السري"              
+        minimum_password_age: "الحد الادني لصلاحيه الرقم السري"
+        maxumum_password_age: "الحد الاعلي لصلاحيه الرقم السري"
+        password_history: "تاريخ الرقم السري"
+        update_security_settings: "تعديل اعدادات الامان"    
+    dual_function_settings:
+      index:
+        dual_function_settings: "اعدادات امر الادخال و التعميد"
+        function_name: "اسم الامر"
+        value: "القيمه"
+      edit:
+        edit_dual_function: "وظيفة تحرير المزدوج"  
+    authentication_settings:
+      index:
+        single_sign_on_settings: "اعدادت صلاحيه الدخول الموحد"
+        name: "الاسم"
+        state: "الحاله"
+        set: "اعداد"
+    email_notifications:
+      index:
+        email_notifications: "إخطارات البريد الإلكتروني"
+        subject: "العنوان"
+        body: "المحتوي"
+        state: "الحاله"
+        new_email_notification: "اخطار بريد الكتروني جديد"    
+      new:
+        new_email_notification: "اخطار بريد الكتروني جديد"
+        create_email_notification: "انشاء اخطار بريد الكتروني"
+      show:
+        email_notification: "Email Notification"
+        subject: "Subject"
+        body: "Body Details"
+        state: "Active"
+      edit:
+        edit_email_notification: "تحرير اخطار بريد الكتروني"
+        update_email_notification: "تعديل اخطار بريد الكتروني"  
+      form:  
+        subject: "الموضوع"
+        body: "المحتوي"
+        state: "الحاله"
+    email_notification_events:
+      index:
+        email_notification_events: "احداث إخطارات البريد الإلكتروني"
+        name: "الاسم"
+        description: "الوصف"
+        email_notification: "الحدث"
+        state: "الحاله"
+        new_email_notification_event: "احداث إخطارات البريد الإلكتروني جديد"
+      new:
+        new_notification_event: "احداث إخطارات البريد الإلكتروني جديد"
+        create_notification_event: "انشاء احداث إخطارات البريد الإلكتروني"
+      edit:
+        edit_notification_event: "تحرير احداث إخطارات البريد الإلكتروني"
+        update_notification_event: "تعديل احداث إخطارات البريد الإلكتروني" 
+      show:
+        notification_event: "Notification Event"
+        name: "Name"
+        description: "Description"
+        email_notifications: "Email Notifications"
+        event_type: "Event Type"
+        state: "Active" 
+      form:  
+        name: "الاسم"
+        description: "الوصف"
+        email_template: "نموذح البريد الالكتروني"
+        state: "الحاله"
+        event_type: "Event Type"
+    
+       

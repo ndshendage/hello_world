@@ -1,0 +1,52 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @animal.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @animal.location %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @animal.age %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @animal.description %>
+</p>
+<p>
+  <strong>Image:</strong>
+  <%= @animal.image_url.to_s.split('/').pop() %>
+  <br>
+  <div class="button-inline-left">
+  <%= image_tag "http://localhost:3001/#{@animal.image}", alt: "Local Image"%>
+  </div> 
+  <br>
+  <div class="button-inline-left">
+  <%= image_tag "http://192.168.1.105:3000/#{@animal.image}", alt: "Ip Image" %>
+  </div>
+  <br>
+  <div class="button-inline-left">
+  <%= image_tag @animal.image_url, alt: "img_url" %>
+  </div>
+  
+ <br>
+  <div class="button-inline-left">
+  <%= image_tag @animal.photos_url, alt: "photo", title: "This is Photo" %>
+  </div>
+</p>
+
+
+<div class="button-inline-left">
+<%= link_to "Download Image by Ip", "http://192.168.1.105:3000/#{@animal.image}", :download => @array, class: 'btn btn-primary btn-grp' %>
+<%= link_to "Download Image by Localhost", "http://127.0.0.1:3001/#{@animal.image}", :download => @array, class: 'btn btn-primary btn-grp' %>
+<%= link_to "Download Image by image_url", @animal.image.thumb.url, :download => @array, class: 'btn btn-primary btn-grp' %>
+<%= link_to 'Edit', edit_animal_path(@animal), class: 'btn btn-primary btn-grp' %> 
+<%= link_to 'Back', animals_path, class: 'btn btn-primary btn-grp' %>
+</div>
+

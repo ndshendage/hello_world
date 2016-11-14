@@ -1,4 +1,4 @@
-/home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20160602-7989-1x1uvap.rb extconf.rb
+/home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20161008-6148-f33v1z.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -12,5 +12,5 @@ compiling wrapper.c
 linking shared-object bcrypt_ext.so
 
 make "DESTDIR=" install
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20160602-7989-1p124ii
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20161008-6148-1edfnc5
 installing default bcrypt_ext libraries

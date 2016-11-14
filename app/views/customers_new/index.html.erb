@@ -1,0 +1,32 @@
+<div class="well well-sm text-center">
+<h3 >List of customers</h3>
+</div>
+<div class="product-list6">
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th class="text-center"> Show</th>
+      <th class="text-center"> Edit </th>
+      <th class="text-center">Delete</th>
+    </tr>
+  </thead>
+
+  <tbody class="customer-list">
+    
+    <%= render 'customer_table'%>
+    
+  </tbody>
+</table>
+
+<br>
+</div>
+<%= link_to 'New Customer', new_customer_path,  class: 'btn btn-success btn-block', remote: true %>
+
+
+<div id="product-modal" class="modal fade"></div> 
+<!-- above div is useful for setting the div return by the js request -->
+

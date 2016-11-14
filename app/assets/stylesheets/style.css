@@ -98,11 +98,20 @@ margin-bottom: 1px;
 }
 
 .table th{
-	background-color: grey;
+	background-color: lightcyan;
 }
-#function-table th:nth-child(odd){
+.table td{
+	padding: 3px 8px 3px 8px;
+}
+.table td .btn{
+	padding: 3px 8px 3px 8px;
+}
+.table{
+	overflow-x: auto;
+}
+/*#function-table th:nth-child(odd){
 	background-color: green;
-}
+}*/
 
 .but{
 	height: 40px;
@@ -217,11 +226,6 @@ margin-bottom: 1px;
 	background-color: grey;
 	text-align: center;
 }
-/*.btn-grp{
-	margin-right: 20px;
-	height: 20px;
-}*/
-
 
 .transition{
 	text-align: center;
@@ -257,4 +261,41 @@ margin-bottom: 1px;
 .place-rbtn label{
 	float: left;
 	margin-right: 5px;
+}
+.product-list{
+	display: none;
+}
+
+.person-form{
+	width: 80%;
+	margin: 20px auto 20px auto;
+	background-color: green;
+}
+.person-form{
+	width: 50%;
+	margin: 20px auto 20px auto;
+	background-color: floralwhite;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.person-form label{
+ float: left;
+ font-size: 14px;
+ font-weight: bold;
+ margin-right: 15px;
+}
+.person-form input[type="radio"]{
+ float: left;
+ margin-right: 8px; 
+}
+.date-align select{
+	width: 88px;
+}
+.full-width{
+	
+	float: left;
+}
+.full-width input[type="checkbox"]{
+	float: left;
+	margin-right: 15px;
 }
