@@ -50,7 +50,7 @@ $(document).on ("click", ".list", function(){
 
 
 $(document).ready(function(){
-  $('#function-table th').css("background-color","orange");
+  //$('#function-table th').css("background-color","orange");
   
   $(document).on ('click', '#all-header', function(){
    $('#function-table th').css("background-color","green");

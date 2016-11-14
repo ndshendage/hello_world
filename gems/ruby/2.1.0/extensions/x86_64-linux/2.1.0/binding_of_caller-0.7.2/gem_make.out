@@ -1,7 +1,7 @@
-/home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20160516-2636-wxjulv.rb extconf.rb
+/home/navnath/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20161008-6148-wrinr8.rb extconf.rb
 
 make "DESTDIR=" clean
-make: *** No rule to make target `clean'.  Stop.
+make: *** No rule to make target 'clean'.  Stop.
 
 make "DESTDIR="
 echo "Nada."

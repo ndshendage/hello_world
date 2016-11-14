@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @student.name %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @student.gender %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @student.address %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @student.age %>
+</p>
+
+<p>
+  <strong>Resume:</strong>
+  <%=link_to  @student.resume_url.to_s.split('/').pop(), @student.resume_url, title: "Download Resume" , target: "_blank" %>
+</p>
+
+<p>
+  <strong>Favourite Video:</strong>
+  <%=link_to @student.video_url.to_s.split('/').pop(), @student.video_url, title: "Download Favourite Video", target: "_blank"  %>
+</p>
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>
