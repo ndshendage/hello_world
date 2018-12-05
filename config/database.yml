@@ -8,15 +8,15 @@ default: &default
   adapter: mysql2
   database: ajax_post
   username: root
-  password: Athdnlt219
+  password: navbharat
   pool: 5
   timeout: 20000
 
 development:
   adapter: mysql2
-  database: ajax_post
+  database: employee_timesheet
   username: root
-  password: Athdnlt219
+  password: navbharat
   pool: 5
   timeout: 20000
   
@@ -28,13 +28,13 @@ test:
   adapter: mysql2
   database: test
   username: root
-  password: Athdnlt219
+  password: navbharat
   pool: 5
   timeout: 20000
 production:
   adapter: mysql2
   database: production
   username: root
-  password: Athdnlt219
+  password: navbharat
   pool: 5
   timeout: 20000

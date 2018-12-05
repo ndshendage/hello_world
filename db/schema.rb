@@ -43,6 +43,17 @@ ActiveRecord::Schema.define(version: 20161027084008) do
     t.string   "state",         limit: 255
   end
 
+  create_table "orders", force: :cascade do |t|
+    t.integer  "customer_id",  limit: 4
+    t.integer  "items",        limit: 4
+    t.float    "total",        limit: 24
+    t.string   "payment_mode", limit: 255
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "orders", ["customer_id"], name: "index_orders_on_customer_id", using: :btree
+
   create_table "people", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.text     "address",    limit: 65535
@@ -70,6 +81,14 @@ ActiveRecord::Schema.define(version: 20161027084008) do
   create_table "products", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.integer  "price",      limit: 4
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "records", force: :cascade do |t|
+    t.string   "title",      limit: 255
+    t.date     "date"
+    t.float    "amount",     limit: 24
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end
