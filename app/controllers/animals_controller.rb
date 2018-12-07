@@ -68,6 +68,13 @@ class AnimalsController < ApplicationController
   def download_image
   end
 
+  def welcome
+    pet_name = params[:name]
+    debugger
+    message = "Welcome #{pet_name} in Maharathwada..."
+    render json: {success: true, message: message}
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_animal

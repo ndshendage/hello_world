@@ -49,7 +49,10 @@ $(document).on ("click", ".homy", function(){
 
 });
 
-
+$(document).on ('click', '.add-more', function(){
+  alert("You are appending the div");
+  $('#functions').append(document.getElementById("all-header11"));
+});
 
 
 
