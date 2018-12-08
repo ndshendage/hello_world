@@ -1,3 +1,4 @@
+<!-- id="row_<%#=javascript_learning.id %>" -->
 <div class="well well-sm text-center">
 <h3 >List of Useful Javascript Functions</h3>
 </div>
@@ -6,7 +7,7 @@
   <%= link_to 'Go To Dom Manipulation', dom_manipulation_javascript_learnings_path ,class: 'btn btn-success btn-under-well'%>
   <%= link_to 'Oder Desc', sorted_javascript_learnings_path(id: "id", order: @order_params) ,class: 'btn btn-success btn-under-well', remote: true, id: "order", order: @order_params%>
 
-  <%= link_to 'Append Div', '#' ,class: 'btn btn-success btn-under-well', class: "add-more", order: @order_params%>
+  <%= link_to 'Append Div', '#' ,class: 'btn btn-success btn-under-well add-more', order: @order_params%>
 
 </div>
 <table class="table table-striped table-bordered" id="function-table">
@@ -33,7 +34,7 @@
         <td><%= javascript_learning.minimum %></td>
         <td class="text-center"><%= link_to 'Show', javascript_learning, class: 'btn btn-info' %></td>
         <td class="text-center"><%= link_to 'Edit', edit_javascript_learning_path(javascript_learning), class: 'btn btn-primary' %></td>
-        <td class="text-center"><%= link_to 'Destroy', javascript_learning, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
+        <td class="text-center"><%= link_to 'Destroy', 'javascript:void(0)', data: { confirm: 'Are you sure?', id: javascript_learning.id }, class: 'btn btn-danger delete-btn'%></td>
       </tr>
     <% end %>
   </tbody>
@@ -49,7 +50,7 @@
 <%= link_to 'Javascript From W3Schools',w3schools_javascript_learnings_path, class: "btn btn-block btn-primary" %>
 </div>
 <div class="well well-sm pull-left" style="width: 100%;" id='functions'>
-<div>
+<div class='raje'>
   <h4 class="text-center">Manipulate Table colors</h4>
   <button class="but" id="all-header" >Change all heading</button>
   <button class="but" id="all-odd">Change all heading</button>
@@ -57,3 +58,30 @@
   <button class="but" id="all-header11">Change all heading</button>
 </div>
 </div>
+
+
+<script type="text/javascript">
+  $(document).on ('click', '.delete-btn', function(){
+    var id = $(this).data('id');
+    var row = $(this).parent().parent()
+    debugger
+    $.ajax({
+      headers: {
+        'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+      },
+     type: "DELETE",// GET in place of POST
+     contentType: "application/json; charset=utf-8",
+     url: "/javascript_learnings/"+id,
+     dataType: "json",
+     success: function (result) {
+       debugger
+       alert('You have successfully deleted this data');
+       row.fadeOut(1000);
+     },
+     error: function (){
+        alert("something wrong!");
+     }
+});
+
+  })
+</script>
