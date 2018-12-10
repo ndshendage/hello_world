@@ -64,7 +64,6 @@
   $(document).on ('click', '.delete-btn', function(){
     var id = $(this).data('id');
     var row = $(this).parent().parent()
-    debugger
     $.ajax({
       headers: {
         'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
@@ -74,8 +73,6 @@
      url: "/javascript_learnings/"+id,
      dataType: "json",
      success: function (result) {
-       debugger
-       alert('You have successfully deleted this data');
        row.fadeOut(1000);
      },
      error: function (){
@@ -84,4 +81,9 @@
 });
 
   })
+
+  // $(document).on('change', "", function(){
+  //   val = $(this).val()
+  //   alert("input changed"+);
+  // })
 </script>
